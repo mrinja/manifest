@@ -20,7 +20,7 @@ Copyright 2010 - 2011, Qualcomm Innovation Center, Inc.
   <remote name="caf" fetch="git://codeaurora.org/" review=""/>
   <default revision="R02.02" remote="github" />
 
-  <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="73e811ec143c017a4c74bede3825605285653ebe">
+  <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="ea1515f712ff438dd747cc2419c8586fde1b92b4">
     <copyfile src="SConstruct.top" dest="SConstruct"/>
     <copyfile src="docs/README.top" dest="README.txt"/>
   </project>
