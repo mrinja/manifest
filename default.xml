@@ -20,15 +20,15 @@ Copyright 2010 - 2011, Qualcomm Innovation Center, Inc.
   <remote name="caf" fetch="git://codeaurora.org/" review=""/>
   <default revision="B02.03.01" remote="github" />
 
-  <project path="alljoyn_core" name="alljoyn/alljoyn_core">
+  <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="182ba2aee920030608ae2f5dd1aa01a285f6390f">
     <copyfile src="SConstruct.top" dest="SConstruct"/>
     <copyfile src="docs/README.top" dest="README.txt"/>
   </project>
 
-  <project path="alljoyn_java" name="alljoyn/alljoyn_java"/>
-  <project path="build_core" name="alljoyn/build_core"/>
-  <project path="common" name="alljoyn/common"/>
-  <project path="stlport" name="alljoyn/stlport"/>
+  <project path="alljoyn_java" name="alljoyn/alljoyn_java" revision="42d3f2c99e0945502fa4e9794274185a8cf2499a"/>
+  <project path="build_core" name="alljoyn/build_core" revision="ca20b23d239a870a8754bdead83864673fe6e992"/>
+  <project path="common" name="alljoyn/common" revision="d0788075edad78ac5a68cbb21b0f6b7db97efc03"/>
+  <project path="stlport" name="alljoyn/stlport" revision="4a18dee55002e13f63ef07980486d64460669419"/>
 
   <project path="stlport/cne" name="platform/external/connectivity" revision="017fb58626329821c19f32fa6f6946b9f383af79" remote="caf"/>
 
