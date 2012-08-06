@@ -18,16 +18,16 @@ Copyright 2010 - 2012, Qualcomm Innovation Center, Inc.
 
   <remote name="github" fetch="git://github.com/" review=""/>
 
-  <default revision="B02.05.00" remote="github" />
+  <default revision="R02.05.01" remote="github" />
 
-  <project path="alljoyn_core" name="alljoyn/alljoyn_core">
+  <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="c8016cee4ba361d2466cfd679d9becf280a7bfbd">
     <copyfile src="SConstruct.top" dest="SConstruct"/>
     <copyfile src="docs/README.top" dest="README.txt"/>
   </project>
 
-  <project path="alljoyn_java" name="alljoyn/alljoyn_java"/>
-  <project path="build_core" name="alljoyn/build_core"/>
-  <project path="common" name="alljoyn/common"/>
+  <project path="alljoyn_java" name="alljoyn/alljoyn_java" revision="69f550fe36bdfe1817fa108ef56a218ec6cfcab5"/>
+  <project path="build_core" name="alljoyn/build_core" revision="522e7219c13dbdf4e674616666ac1bd67b694842"/>
+  <project path="common" name="alljoyn/common" revision="a0c06bc384bf19adfcdc404ecd876a9c474930b0"/>
 
   <project path="manifest" name="alljoyn/manifest"/>
 
