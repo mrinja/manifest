@@ -18,19 +18,19 @@ Copyright 2010 - 2012, Qualcomm Innovation Center, Inc.
 
   <remote name="github" fetch="git://github.com/" review=""/>
   <remote name="caf" fetch="git://codeaurora.org/" review=""/>
-  <default revision="B02.03.06" remote="origin" />
+  <default revision="R02.03.06" remote="github" />
 
-  <project path="alljoyn_c" name="alljoyn/alljoyn_c"/>
-  <project path="alljoyn_core" name="alljoyn/alljoyn_core">
+  <project path="alljoyn_c" name="alljoyn/alljoyn_c" revision="d836ea785503d75b94c4734e3f9b6be6b634bde5"/>
+  <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="86343cd7079777f585d49f84ac9476f2de5dcbf1">
     <copyfile src="SConstruct.top" dest="SConstruct"/>
     <copyfile src="docs/README.top" dest="README.txt"/>
   </project>
 
-  <project path="alljoyn_java" name="alljoyn/alljoyn_java"/>
-  <project path="alljoyn_unity" name="alljoyn/alljoyn_unity"/>
-  <project path="build_core" name="alljoyn/build_core"/>
-  <project path="common" name="alljoyn/common"/>
-  <project path="stlport" name="alljoyn/stlport"/>
+  <project path="alljoyn_java" name="alljoyn/alljoyn_java" revision="3872b1648ae5175a972429d428ba172c8eb09325"/>
+  <project path="alljoyn_unity" name="alljoyn/alljoyn_unity" revision="699fa426ba74bf30b75f0e7396f05687bc7ccdc1"/>
+  <project path="build_core" name="alljoyn/build_core" revision="2eaa3a248c7a297fee14c104892ca5b7099f6909"/>
+  <project path="common" name="alljoyn/common" revision="e57cb59bf9e50a36ec93382fecbbf5be752e1537"/>
+  <project path="stlport" name="alljoyn/stlport" revision="4a18dee55002e13f63ef07980486d64460669419"/>
 
   <project path="stlport/cne" name="platform/external/connectivity" revision="017fb58626329821c19f32fa6f6946b9f383af79" remote="caf"/>
 
