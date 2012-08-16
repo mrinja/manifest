@@ -22,12 +22,14 @@ Copyright 2010 - 2012, Qualcomm Innovation Center, Inc.
 
   <project path="alljoyn_c" name="alljoyn/alljoyn_c"/>
   <project path="alljoyn_core" name="alljoyn/alljoyn_core">
-    <copyfile src="SConstruct.top" dest="SConstruct"/>
     <copyfile src="docs/README.top" dest="README.txt"/>
   </project>
 
   <project path="alljoyn_java" name="alljoyn/alljoyn_java"/>
-  <project path="alljoyn_unity" name="alljoyn/alljoyn_unity"/>
+  <project path="alljoyn_unity" name="alljoyn/alljoyn_unity">
+    <copyfile src="SConstruct.top" dest="SConstruct"/>
+  </project>
+
   <project path="build_core" name="alljoyn/build_core"/>
   <project path="common" name="alljoyn/common"/>
   <project path="stlport" name="alljoyn/stlport"/>
