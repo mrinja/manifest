@@ -29,9 +29,11 @@ Copyright 2010 - 2012, Qualcomm Innovation Center, Inc.
 
   <project path="alljoyn_java" name="alljoyn/alljoyn_java"/>
   <project path="alljoyn_js" name="alljoyn/alljoyn_js"/>
+  <project path="alljoyn_objc" name="alljoyn/alljoyn_objc"/>
   <project path="alljoyn_unity" name="alljoyn/alljoyn_unity"/>
   <project path="build_core" name="alljoyn/build_core"/>
   <project path="common" name="alljoyn/common"/>
+  <project path="win8_apps" name="alljoyn/win8_apps"/>
 
   <project path="manifest" name="alljoyn/manifest"/>
 
