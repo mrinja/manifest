@@ -18,22 +18,22 @@ Copyright 2010 - 2012, Qualcomm Innovation Center, Inc.
 
   <remote name="github" fetch="git://github.com/" review=""/>
 
-  <default revision="B03.00.00" remote="github" />
+  <default revision="R03.00.02" remote="github" />
 
-  <project path="alljoyn_c" name="alljoyn/alljoyn_c"/>
+  <project path="alljoyn_c" name="alljoyn/alljoyn_c" revision="cb2410b8c8f5b14ac5a4e5a09c6b13425c385cbd"/>
 
-  <project path="alljoyn_core" name="alljoyn/alljoyn_core">
+  <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="169619f6afe94f3ff74c2c0e06c5101f0172c04b">
     <copyfile src="SConstruct.top" dest="SConstruct"/>
     <copyfile src="docs/README.top" dest="README.txt"/>
   </project>
 
-  <project path="alljoyn_java" name="alljoyn/alljoyn_java"/>
-  <project path="alljoyn_js" name="alljoyn/alljoyn_js"/>
-  <project path="alljoyn_objc" name="alljoyn/alljoyn_objc"/>
-  <project path="alljoyn_unity" name="alljoyn/alljoyn_unity"/>
-  <project path="build_core" name="alljoyn/build_core"/>
-  <project path="common" name="alljoyn/common"/>
-  <project path="win8_apps" name="alljoyn/win8_apps"/>
+  <project path="alljoyn_java" name="alljoyn/alljoyn_java" revision="a09b6dca643781dd56aee2791a4acc924449d9a2"/>
+  <project path="alljoyn_js" name="alljoyn/alljoyn_js" revision="563325c8056460562c3d0acdac28e3041b1ef9e6"/>
+  <project path="alljoyn_objc" name="alljoyn/alljoyn_objc" revision="cc20bb7f32d50145ccf462d327329d28b88daec9"/>
+  <project path="alljoyn_unity" name="alljoyn/alljoyn_unity" revision="41eefccc19c54b2db4851ffdd40ca0d6ae4cbefd"/>
+  <project path="build_core" name="alljoyn/build_core" revision="ae9ce69e132a6ed5a8a98af75b0c97cb891dd225"/>
+  <project path="common" name="alljoyn/common" revision="183f8addd6b71072acf5f8e70c41708b56d1a905"/>
+  <project path="win8_apps" name="alljoyn/win8_apps" revision="1a7ed5ad774eab5fb9b7953b1e2f30dd565804f4"/>
 
   <project path="manifest" name="alljoyn/manifest"/>
 
