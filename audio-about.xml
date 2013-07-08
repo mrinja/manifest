@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!--
+Copyright 2013, Qualcomm Innovation Center, Inc.
+
+   All rights reserved.
+   This file is licensed under the 3-clause BSD license in the NOTICE.txt
+   file for this project. A copy of the 3-clause BSD license is found at:
+
+       http://opensource.org/licenses/BSD-3-Clause.
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the license is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the license for the specific language governing permissions and
+   limitations under the license.
+-->
+
+  <remote name="github" fetch="git://github.com/" review=""/>
+
+  <default revision="master" remote="github" />
+
+  <!-- AllJoyn Core -->
+  <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="B03.03.00">
+    <copyfile src="SConstruct.top" dest="SConstruct"/>
+    <copyfile src="docs/README.top" dest="README.txt"/>
+  </project>
+
+  <project path="build_core" name="alljoyn/build_core" revision="B03.03.00"/>
+  <project path="common" name="alljoyn/common" revision="B03.03.00"/>
+
+  <!-- AllJoyn Services -->
+  <project path="services/audio" name="alljoyn/audio" revision="B00.00.08"/>
+
+  <project path="services/about" name="alljoyn/about" revision="cpp-B00.00.09"/>
+
+  <!-- this manifest -->
+  <project path="manifest" name="alljoyn/manifest"/>
+
+</manifest>
