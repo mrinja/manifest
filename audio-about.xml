@@ -21,13 +21,13 @@ Copyright 2013, Qualcomm Innovation Center, Inc.
   <default revision="master" remote="github" />
 
   <!-- AllJoyn Core -->
-  <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="B03.03.00">
+  <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="master">
     <copyfile src="SConstruct.top" dest="SConstruct"/>
     <copyfile src="docs/README.top" dest="README.txt"/>
   </project>
 
-  <project path="build_core" name="alljoyn/build_core" revision="B03.03.00"/>
-  <project path="common" name="alljoyn/common" revision="B03.03.00"/>
+  <project path="build_core" name="alljoyn/build_core" revision="master"/>
+  <project path="common" name="alljoyn/common" revision="master"/>
 
   <!-- AllJoyn Services -->
   <project path="services/audio" name="alljoyn/audio" revision="master"/>
