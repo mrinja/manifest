@@ -18,7 +18,7 @@ Copyright 2013, Qualcomm Innovation Center, Inc.
 
   <remote name="github" fetch="git://github.com/" review=""/>
 
-  <default revision="master" remote="github" />
+  <default revision="audio-B01.00.00" remote="github" />
 
   <!-- AllJoyn Core -->
   <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="B03.03.00">
@@ -30,9 +30,9 @@ Copyright 2013, Qualcomm Innovation Center, Inc.
   <project path="common" name="alljoyn/common" revision="B03.03.00"/>
 
   <!-- AllJoyn Services -->
-  <project path="services/audio" name="alljoyn/audio" revision="master"/>
+  <project path="services/audio" name="alljoyn/audio" revision="B01.00.00"/>
 
-  <project path="services/about" name="alljoyn/about" revision="cpp"/>
+  <project path="services/about" name="alljoyn/about" revision="audio-B01.00.00"/>
 
   <!-- this manifest -->
   <project path="manifest" name="alljoyn/manifest"/>
