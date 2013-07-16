@@ -32,7 +32,7 @@ Copyright 2010 - 2013, Qualcomm Innovation Center, Inc.
   <!-- AllJoyn Services -->
   <project path="services/audio" name="alljoyn/audio" revision="B01.00.00"/>
 
-  <project path="services/about" name="alljoyn/about" revision="audio-B01.00.00"/>
+  <project path="services/about" name="alljoyn/about" revision="cpp-B00.00.09"/>
 
   <!-- this manifest -->
   <project path="manifest" name="alljoyn/manifest"/>
