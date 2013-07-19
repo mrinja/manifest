@@ -18,21 +18,21 @@ Copyright 2010 - 2013, Qualcomm Innovation Center, Inc.
 
   <remote name="github" fetch="git://github.com/" review=""/>
 
-  <default revision="R03.03.00" remote="github" />
+  <default revision="R03.03.02" remote="github" />
 
-  <project path="alljoyn_c" name="alljoyn/alljoyn_c" revision="099919a3c127cce16fc6f6eefe8d3d695a34cabc"/>
+  <project path="alljoyn_c" name="alljoyn/alljoyn_c" revision="fe16f40f12d284680bca20024add6d672082a290"/>
 
-  <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="397178aa6cf0355fabb43c771891e5dd87e63453">
+  <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="bafd2527601d5d88d7ae38fe8898d0efd09e1fba">
     <copyfile src="SConstruct.top" dest="SConstruct"/>
     <copyfile src="docs/README.top" dest="README.txt"/>
   </project>
 
-  <project path="alljoyn_java" name="alljoyn/alljoyn_java" revision="765d7ef810df7e4983febfa21b6583b168d527e7"/>
-  <project path="alljoyn_js" name="alljoyn/alljoyn_js" revision="cc3661caad62e42524e0a73e0da56d2ea378a141"/>
-  <project path="alljoyn_objc" name="alljoyn/alljoyn_objc" revision="33f8b49e4700ed384ef0c669e19abc39960684c0"/>
-  <project path="alljoyn_unity" name="alljoyn/alljoyn_unity" revision="1e9d60f686c494e3bd44e001c84eae61a22a8daf"/>
-  <project path="build_core" name="alljoyn/build_core" revision="09c572e89045f58fc7e4a29e5e154a631887b1f3"/>
-  <project path="common" name="alljoyn/common" revision="9b9ca72ed7187558cd109a55746521bc5b478f25"/>
+  <project path="alljoyn_java" name="alljoyn/alljoyn_java" revision="9f4caeb421254e7fad28c9997cf5eecc1761f607"/>
+  <project path="alljoyn_js" name="alljoyn/alljoyn_js" revision="52c4f25313b1e27980870ae77399fdb2cb36ff4c"/>
+  <project path="alljoyn_objc" name="alljoyn/alljoyn_objc" revision="d93522fdb1c47afb7a7585e5b7390ed0409cabbc"/>
+  <project path="alljoyn_unity" name="alljoyn/alljoyn_unity" revision="c9ba1c5cfd62ecfc9d05a97812c007bbbbc14e3b"/>
+  <project path="build_core" name="alljoyn/build_core" revision="8f3c00c595e4a0bd5dfa93a7af56d3473a71b84d"/>
+  <project path="common" name="alljoyn/common" revision="b33a80b38f74c7e0d6ce2fc36ddefe17c68cd4fd"/>
   <project path="win8_apps" name="alljoyn/win8_apps" revision="d3f7d8f0ca30816b3e0cb5511be657a000e2fb48"/>
 
   <project path="manifest" name="alljoyn/manifest"/>
