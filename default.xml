@@ -18,21 +18,21 @@ Copyright 2010 - 2013, Qualcomm Innovation Center, Inc.
 
   <remote name="github" fetch="git://github.com/" review=""/>
 
-  <default revision="audio-B01.00.00" remote="github" />
+  <default revision="audio-R01.00.00" remote="github" />
 
   <!-- AllJoyn Core -->
-  <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="B03.03.00">
+  <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="bafd2527601d5d88d7ae38fe8898d0efd09e1fba">
     <copyfile src="SConstruct.top" dest="SConstruct"/>
     <copyfile src="docs/README.top" dest="README.txt"/>
   </project>
 
-  <project path="build_core" name="alljoyn/build_core" revision="B03.03.00"/>
-  <project path="common" name="alljoyn/common" revision="B03.03.00"/>
+  <project path="build_core" name="alljoyn/build_core" revision="8f3c00c595e4a0bd5dfa93a7af56d3473a71b84d"/>
+  <project path="common" name="alljoyn/common" revision="b33a80b38f74c7e0d6ce2fc36ddefe17c68cd4fd"/>
 
   <!-- AllJoyn Services -->
-  <project path="services/audio" name="alljoyn/audio" revision="B01.00.00"/>
+  <project path="services/audio" name="alljoyn/audio" revision="fdc557c3c58b354b7fea7ec25a927db4606e8dae"/>
 
-  <project path="services/about" name="alljoyn/about" revision="cpp-B00.00.09"/>
+  <project path="services/about" name="alljoyn/about" revision="03b0eb54df46e6bf56ea075c10e4523799677162"/>
 
   <!-- this manifest -->
   <project path="manifest" name="alljoyn/manifest"/>
