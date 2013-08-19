@@ -20,6 +20,9 @@ Copyright 2013, Qualcomm Innovation Center, Inc.
 
   <default revision="master" remote="github" />
 
+  <!-- AllJoyn Audio -->
+  <project path="services/audio" name="alljoyn/audio"/>
+
   <!-- AllJoyn Core -->
   <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="master">
     <copyfile src="SConstruct.top" dest="SConstruct"/>
@@ -29,10 +32,8 @@ Copyright 2013, Qualcomm Innovation Center, Inc.
   <project path="build_core" name="alljoyn/build_core" revision="master"/>
   <project path="common" name="alljoyn/common" revision="master"/>
 
-  <!-- AllJoyn Services -->
-  <project path="services/audio" name="alljoyn/audio" revision="master"/>
-
-  <project path="services/about" name="alljoyn/about" revision="cpp"/>
+  <!-- About Service -->
+  <project path="services/about" name="alljoyn/about" revision="master"/>
 
   <!-- this manifest -->
   <project path="manifest" name="alljoyn/manifest"/>
