@@ -22,7 +22,7 @@ Copyright 2010 - 2013, Qualcomm Innovation Center, Inc.
 
   <project path="alljoyn_c" name="alljoyn/alljoyn_c" revision="c591891ede02536eafd4c60f91d9ce3b0a7696a7"/>
 
-  <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="3ca779196a938f012629ec39f35a2184eb193458">
+  <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="ab05e9779cc7887d1d90a5f04ea748729c155de4">
     <copyfile src="SConstruct.top" dest="SConstruct"/>
     <copyfile src="docs/README.top" dest="README.txt"/>
   </project>
@@ -31,12 +31,12 @@ Copyright 2010 - 2013, Qualcomm Innovation Center, Inc.
   <project path="alljoyn_js" name="alljoyn/alljoyn_js" revision="9e1e335562de514d4a2484a4ad5c9e1cf95f3086"/>
   <project path="alljoyn_objc" name="alljoyn/alljoyn_objc" revision="be0a8386303701d8bc22eb6f618853ce48814fab"/>
   <project path="alljoyn_unity" name="alljoyn/alljoyn_unity" revision="915658076d27a7539728f16ba399a356a2646b9b"/>
-  <project path="build_core" name="alljoyn/build_core" revision="008fb8828f3b70a4ac4b1d0280d1fcd11a21e0dc"/>
-  <project path="common" name="alljoyn/common" revision="2f54d2050eec21670a186b82d72d48ad5c337c6b"/>
+  <project path="build_core" name="alljoyn/build_core" revision="edc0e3c149b5d1100cf8ce75e6530bdcaea76b4e"/>
+  <project path="common" name="alljoyn/common" revision="d51d22fcb18207fb52601fa8b95741b3a8d01ae9"/>
   <project path="win8_apps" name="alljoyn/win8_apps" revision="0d59e50d549e8f22f01b3dfe40e044b8514cf531"/>
 
   <!-- About Service -->
-  <project path="services/about" name="alljoyn/about" revision="7e2f8a74be8250e3b324aa2750da2ad54ce1e08b"/>
+  <project path="services/about" name="alljoyn/about" revision="7bc78e09cae91fec6cd649ce08e2308cacbcce9d"/>
 
   <project path="manifest" name="alljoyn/manifest"/>
 
