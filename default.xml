@@ -18,21 +18,21 @@ Copyright 2010 - 2013, Qualcomm Innovation Center, Inc.
 
   <remote name="github" fetch="git://github.com/" review=""/>
 
-  <default revision="R03.04.01" remote="github" />
+  <default revision="R03.04.02" remote="github" />
 
-  <project path="alljoyn_c" name="alljoyn/alljoyn_c" revision="c591891ede02536eafd4c60f91d9ce3b0a7696a7"/>
+  <project path="alljoyn_c" name="alljoyn/alljoyn_c" revision="7a7c5da5fe54e037210479be0b699d82668905bc"/>
 
-  <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="ab05e9779cc7887d1d90a5f04ea748729c155de4">
+  <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="9eb3f92ad2ca4bc359c2677a6132967494106e41">
     <copyfile src="SConstruct.top" dest="SConstruct"/>
     <copyfile src="docs/README.top" dest="README.txt"/>
   </project>
 
-  <project path="alljoyn_java" name="alljoyn/alljoyn_java" revision="9bf548a35ff1e7473931335e80aa3679796510b2"/>
-  <project path="alljoyn_js" name="alljoyn/alljoyn_js" revision="9e1e335562de514d4a2484a4ad5c9e1cf95f3086"/>
+  <project path="alljoyn_java" name="alljoyn/alljoyn_java" revision="71935857bd26a2f6dbe25a766f34a1c807d90292"/>
+  <project path="alljoyn_js" name="alljoyn/alljoyn_js" revision="03fba2b6b141b7303c3fb3ece48017b1e0c9d539"/>
   <project path="alljoyn_objc" name="alljoyn/alljoyn_objc" revision="be0a8386303701d8bc22eb6f618853ce48814fab"/>
-  <project path="alljoyn_unity" name="alljoyn/alljoyn_unity" revision="915658076d27a7539728f16ba399a356a2646b9b"/>
+  <project path="alljoyn_unity" name="alljoyn/alljoyn_unity" revision="451ee975b828430245424553c6e15fefe5915c0b"/>
   <project path="build_core" name="alljoyn/build_core" revision="edc0e3c149b5d1100cf8ce75e6530bdcaea76b4e"/>
-  <project path="common" name="alljoyn/common" revision="d51d22fcb18207fb52601fa8b95741b3a8d01ae9"/>
+  <project path="common" name="alljoyn/common" revision="b4f7141cdfbb331294d06e00c19a5af2b257c0af"/>
   <project path="win8_apps" name="alljoyn/win8_apps" revision="0d59e50d549e8f22f01b3dfe40e044b8514cf531"/>
 
   <!-- About Service -->
