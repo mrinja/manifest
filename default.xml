@@ -18,25 +18,25 @@ Copyright 2010 - 2013, Qualcomm Innovation Center, Inc.
 
   <remote name="github" fetch="git://github.com/" review=""/>
 
-  <default revision="R03.04.02" remote="github" />
+  <default revision="R03.04.03" remote="github" />
 
-  <project path="alljoyn_c" name="alljoyn/alljoyn_c" revision="7a7c5da5fe54e037210479be0b699d82668905bc"/>
+  <project path="alljoyn_c" name="alljoyn/alljoyn_c" revision="d8dcc4006bba5a54f455fd36ef146317a9275216"/>
 
-  <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="9eb3f92ad2ca4bc359c2677a6132967494106e41">
+  <project path="alljoyn_core" name="alljoyn/alljoyn_core" revision="1d3511d0924aafa2c89de60b1ff02bc3b7de2f84">
     <copyfile src="SConstruct.top" dest="SConstruct"/>
     <copyfile src="docs/README.top" dest="README.txt"/>
   </project>
 
-  <project path="alljoyn_java" name="alljoyn/alljoyn_java" revision="71935857bd26a2f6dbe25a766f34a1c807d90292"/>
-  <project path="alljoyn_js" name="alljoyn/alljoyn_js" revision="03fba2b6b141b7303c3fb3ece48017b1e0c9d539"/>
+  <project path="alljoyn_java" name="alljoyn/alljoyn_java" revision="dde171d566de647a1f177280dc54036acceb389c"/>
+  <project path="alljoyn_js" name="alljoyn/alljoyn_js" revision="203d95559903ba3858220eeb2693b72455764c84"/>
   <project path="alljoyn_objc" name="alljoyn/alljoyn_objc" revision="be0a8386303701d8bc22eb6f618853ce48814fab"/>
-  <project path="alljoyn_unity" name="alljoyn/alljoyn_unity" revision="451ee975b828430245424553c6e15fefe5915c0b"/>
+  <project path="alljoyn_unity" name="alljoyn/alljoyn_unity" revision="57e2bd75bdb646832d2d638cd3d0d9dbad10012b"/>
   <project path="build_core" name="alljoyn/build_core" revision="edc0e3c149b5d1100cf8ce75e6530bdcaea76b4e"/>
-  <project path="common" name="alljoyn/common" revision="b4f7141cdfbb331294d06e00c19a5af2b257c0af"/>
+  <project path="common" name="alljoyn/common" revision="08807351be292da8216657c282124d9862ec2e89"/>
   <project path="win8_apps" name="alljoyn/win8_apps" revision="0d59e50d549e8f22f01b3dfe40e044b8514cf531"/>
 
   <!-- About Service -->
-  <project path="services/about" name="alljoyn/about" revision="7bc78e09cae91fec6cd649ce08e2308cacbcce9d"/>
+  <project path="services/about" name="alljoyn/about" revision="f7dd0148a50f3fab1e93993e86dbcdfa8888893e"/>
 
   <project path="manifest" name="alljoyn/manifest"/>
 
