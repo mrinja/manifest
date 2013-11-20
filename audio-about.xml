@@ -33,7 +33,7 @@ Copyright 2013, Qualcomm Innovation Center, Inc.
   <project path="common" name="alljoyn/common" revision="master"/>
 
   <!-- About Service -->
-  <project path="services/about" name="alljoyn/about" revision="master"/>
+  <project path="services/about" name="alljoyn/about" revision="B03.04.00"/>
 
   <!-- this manifest -->
   <project path="manifest" name="alljoyn/manifest"/>
